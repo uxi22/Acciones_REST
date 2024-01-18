@@ -1,0 +1,15 @@
+POST http://localhost:8081/compras
+Content-Type: application/json
+
+{
+  "fecha": "2010-03-01",
+  "simbolo": "TEX",
+  "volumen": 100,
+  "unidad": 2.2,
+  "total": 220.0,
+  "metodo_pago": {
+    "tarjeta": "1234-56-9012-3456",
+    "vencimiento": "08/25",
+    "cvv": "123"
+  }
+}
